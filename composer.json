@@ -1,0 +1,25 @@
+{
+  "name": "death_satan/thinkphp-dispatch",
+  "description": "thinkphp auto response",
+  "type": "library",
+  "homepage": "https://www.cnblogs.com/death-satan",
+  "license": "MIT",
+  "keywords": ["thinkphp6","thinkphp composer组件扩展包","thinkphp6","thinkphp"],
+  "version": "v1.0",
+  "authors": [
+    {
+      "name": "death-satan",
+      "email": "2771717608@qq.com"
+    }
+  ],
+  "require": {
+    "topthink/framework": "^6.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
